@@ -8,7 +8,7 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Configuration
-MODEL_PATH = 'face_recognition_model_auto_e1000.h5'
+MODEL_PATH = 'face_recognition_model.h5'
 CASCADE_PATH = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 IMAGE_SIZE = (224, 224)
 
