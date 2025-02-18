@@ -25,7 +25,7 @@ name_mapping = {
 face_cascade = cv2.CascadeClassifier(CASCADE_PATH)
 
 # OpenCV video capture
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Error: Could not open video stream.")
     exit()
